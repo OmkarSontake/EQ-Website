@@ -3,6 +3,7 @@
         <Hero></Hero>
         <About></About>
         <Glance></Glance>
+        <Trusted></Trusted>
         <Offerings></Offerings>
     </div>
 </template>
