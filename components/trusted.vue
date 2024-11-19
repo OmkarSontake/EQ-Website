@@ -48,7 +48,7 @@ vbaes<template>
 
 <style scoped>
 .about-container {
-    background-image: url(@/assets/aboutus.png);
+    background-image: url(@/assets/offering-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
