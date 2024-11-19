@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-between items-center px-5 bg-[#2f2e2e] py-3">
+    <div class="w-full flex justify-between sticky top-0 items-center px-5 bg-[#2f2e2e] z-40 py-3">
         <div class="flex items-center gap-x-5">
             <img src="@/assets/logo.png" class="w-14" alt="logo eq-website">
             <div class="hidden lg:flex flex-col font-semibold font-mono">
