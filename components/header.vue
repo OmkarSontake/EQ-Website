@@ -7,7 +7,7 @@
                 <NuxtLink to="/about-us">About</NuxtLink>
                 <NuxtLink to="/services">Services</NuxtLink>
                 <NuxtLink to="/">Blogs</NuxtLink>
-                <NuxtLink to="/">Contact</NuxtLink>
+                <NuxtLink to="/contact-us">Contact</NuxtLink>
             </div>
 
             <div class="hidden lg:flex items-center justify-end text-lg font-medium gap-x-4">
