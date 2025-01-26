@@ -1,22 +1,21 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <div class="w-full bg-[#e8e7e2] min-h-screen text-[#dfd6ba]">
-    <Header></Header>
-    <NuxtPage></NuxtPage>
+  <div class="bg-stone-100">
+    <NuxtLayout>
+      <NuxtPage></NuxtPage>
+      <Footer></Footer>
+    </NuxtLayout>
   </div>
 </template>
 
 
-
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-}
-
 html,
 body {
   width: 100%;
+  font-family: "Inter";
 }
 </style>

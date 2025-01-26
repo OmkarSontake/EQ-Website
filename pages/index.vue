@@ -1,13 +1,8 @@
 <template>
-    <div>
-        <Hero></Hero>
-        <About></About>
-        <Glance></Glance>
-        <Trusted></Trusted>
-        <Offerings></Offerings>
-    </div>
+    <Hero></Hero>
+    <IconCta></IconCta>
+    <SideCard></SideCard>
+    <CardList></CardList>
+    <SideCardRight></SideCardRight>
 </template>
-
-<script setup>
-
-</script>
+<script lang="ts" setup></script>

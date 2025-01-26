@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  css: ['~/assets/css/inter.css'],
+  compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "v-wave/nuxt"]
-})
+  css: ["~/assets/css/main.css", "~/assets/fonts/inter.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+});
