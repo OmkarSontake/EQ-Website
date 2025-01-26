@@ -16,7 +16,7 @@
                             :value="item.value">
                             <AccordionHeader class="flex">
                                 <AccordionTrigger
-                                    class="text-grass11 shadow-mauve6 hover:bg-mauve2 flex flex-1 cursor-default items-center justify-between bg-white px-5 font-semibold py-5 leading-none shadow-[0_1px_0] outline-none group">
+                                    class="text-grass11 shadow-mauve6 hover:bg-mauve2 flex flex-1 cursor-default text-left w-full items-center justify-between bg-white px-5 font-semibold py-5 leading-none shadow-[0_1px_0] outline-none group">
                                     <span>{{ item.title }}</span>
                                     <Icon icon="radix-icons:chevron-down"
                                         class="text-green10 ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180"
@@ -32,6 +32,12 @@
                         </AccordionItem>
                     </template>
                 </AccordionRoot>
+            </div>
+
+            <div class="w-fit mx-auto mt-10 2xl:mt-14">
+                <button
+                    class="py-2.5 px-5 bg-orange-400 hover:bg-white border border-orange-400 transition-all duration-300 rounded-sm">Still
+                    Have Questions? Contact Us</button>
             </div>
         </div>
     </div>
