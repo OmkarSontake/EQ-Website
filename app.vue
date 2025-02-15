@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+const token = useState('token', () => undefined)
 </script>
 
 <template>
