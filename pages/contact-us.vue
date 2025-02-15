@@ -62,7 +62,8 @@
                         </div>
                     </div>
 
-                    <form @submit.prevent class="bg-neutral-50 rounded-lg border border-black px-4 lg:px-8 text-lg py-10 space-y-8 mt-8 lg:mt-0">
+                    <form @submit.prevent="handleSubmit"
+                        class="bg-neutral-50 rounded-lg border border-black px-4 lg:px-8 text-lg py-10 space-y-8 mt-8 lg:mt-0">
                         <div class="space-y-2">
                             <label for="name" class="font-semibold">Your Name</label>
                             <input type="text" id="name" name="name" class="w-full p-3 border border-black rounded-full"
@@ -81,7 +82,7 @@
                                 placeholder="Write us your question here" />
                         </div>
 
-                        <button class="p-3 bg-orange-400 px-5 rounded-full">Send Message</button>
+                        <button type="submit" class="p-3 bg-orange-400 px-5 rounded-full">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -91,4 +92,7 @@
 
 <script setup lang="ts">
 
+const handleSubmit = (e: Event) => {
+    console.log(e)
+}
 </script>
