@@ -4,34 +4,6 @@
 
         <div class="w-full bg-white">
             <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 py-5 pt-12 sm:py-10 lg:py-14">
-                <div class="w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                    <div
-                        class=" p-4 lg:p-4 2xl:p-6 border-black hover:shadow-2xl transition-all duration-500 shadow-black border-2 rounded-lg">
-                        <img src="https://astro-agency08.vercel.app/assets/img/icons/icon-duotone-chat.svg"
-                            class="h-12 w-12" alt="">
-
-                        <h3 class="font-semibold lg:text-xl 2xl:text-2xl mt-5">Chat with Us</h3>
-                        <p class="mt-4">We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
-                    </div>
-
-                    <div
-                        class=" p-4 lg:p-4 2xl:p-6 border-black hover:shadow-2xl transition-all duration-500 shadow-black border-2 rounded-lg">
-                        <img src="https://astro-agency08.vercel.app/assets/img/icons/icon-duotone-phone.svg"
-                            class="h-12 w-12" alt="">
-
-                        <h3 class="font-semibold lg:text-xl 2xl:text-2xl mt-5">Chat with Us</h3>
-                        <p class="mt-4">We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
-                    </div>
-
-                    <div
-                        class=" p-4 lg:p-4 2xl:p-6 border-black hover:shadow-2xl transition-all duration-500 shadow-black border-2 rounded-lg">
-                        <img src="https://astro-agency08.vercel.app/assets/img/icons/icon-duotone-message.svg"
-                            class="h-12 w-12" alt="">
-
-                        <h3 class="font-semibold lg:text-xl 2xl:text-2xl mt-5">Chat with Us</h3>
-                        <p class="mt-4">We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
-                    </div>
-                </div>
 
                 <div class="grid lg:grid-cols-2 mt-10 2xl:mt-20 gap-x-8">
 

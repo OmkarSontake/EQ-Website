@@ -6,7 +6,7 @@
                 <NuxtLink to="/">Home</NuxtLink>
                 <NuxtLink to="/about-us">About</NuxtLink>
                 <NuxtLink to="/services">Services</NuxtLink>
-                <NuxtLink to="/pricing">Services</NuxtLink>
+                <NuxtLink to="/pricing">Pricing</NuxtLink>
                 <NuxtLink to="/contact-us">Contact</NuxtLink>
             </div>
 

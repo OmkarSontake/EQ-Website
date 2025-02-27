@@ -38,10 +38,10 @@
                         <h4 class="text-lg xl:text-xl font-semibold">Trading Resources</h4>
                         <div class="flex flex-col gap-y-5">
                             <NuxtLink class="text-lg opacity-75" to="/">Home</NuxtLink>
-                            <NuxtLink class="text-lg opacity-75" to="/">About EQ</NuxtLink>
-                            <NuxtLink class="text-lg opacity-75" to="/">Products</NuxtLink>
-                            <NuxtLink class="text-lg opacity-75" to="/">Plans</NuxtLink>
-                            <NuxtLink class="text-lg opacity-75" to="/">Contact</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/about-us">About EQ</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/services">Products</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/pricing">Plans</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/contact-us">Contact</NuxtLink>
                         </div>
                     </div>
 
