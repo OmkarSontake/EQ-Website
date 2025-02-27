@@ -145,12 +145,10 @@ const handleSubmit = async (e: Event) => {
             body: registrationDetails,
 
         })
-        token.value = response.token
-        console.log(token.value)
         form.reset()
-        router.push('/dashboard')
-    } catch (error) {
-        console.log(error)
+        token.value = response.token
+    } catch (error: any) {
+        console.log(error.message)
     }
 
 }

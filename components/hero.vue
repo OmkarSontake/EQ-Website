@@ -20,8 +20,8 @@
                 </div>
             </div>
             <div class="grid place-content-center">
-                <img src="https://astro-agency08.vercel.app/assets/img/th-5/hero-card-1.png"
-                    class="aspect-square max-h-72" alt="">
+                <img src="../assets/images/offered-resize-300x236.jpg"
+                    class="aspect-square max-h-80" alt="">
             </div>
         </div>
     </div>

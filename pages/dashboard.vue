@@ -1,11 +1,27 @@
 <script setup lang="ts">
-import { NuxtLink } from '#components';
 
 </script>
 
 <template>
-    <div class="py-40 text-center">
-        <h2 class="py-40 text-center">Dashboard(work in progress)</h2>
-        <NuxtLink to="/">Go Back Home</NuxtLink>
+    <div class="flex-grow h-full px-4 sm:px-6 lg:px-8">
+        <div class="flex gap-x-10 items-center">
+            <NuxtLink to="/dashboard/">
+                My Profile
+            </NuxtLink>
+            <NuxtLink to="/dashboard/orders">
+                My Orders
+            </NuxtLink>
+            <NuxtLink to="/dashboard/subscriptions">
+                My Subscriptions
+            </NuxtLink>
+        </div>
+        <NuxtPage></NuxtPage>
     </div>
 </template>
+
+
+<style scoped>
+.router-link-active {
+    font-size: larger;
+}
+</style>
