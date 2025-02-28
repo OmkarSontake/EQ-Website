@@ -72,6 +72,6 @@ onMounted(async()=>{
 
 const handleSubscription = (tier) => {
     console.log('Selected tier:', tier)
-    router.push('/spare')
+    router.push('/pricing')
 }
 </script>
