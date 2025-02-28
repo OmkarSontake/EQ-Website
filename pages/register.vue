@@ -74,6 +74,7 @@
                                 <option value="ONLINE">Online Search</option>
                                 <option value="SOCIAL">Social Media</option>
                                 <option value="OTHER">Other</option>
+                                <option value="GOOGLE">Other</option>
                             </select>
                         </div>
 
@@ -89,7 +90,7 @@
 
                     <div>
                         <h2 class="w-full text-3xl lg:text-4xl 2xl:text-5xl font-semibold">
-                            Start Your Free Trial of EQ Analysis Today
+                            Start Your Journey With EQ Analysis Today
                         </h2>
                         <p class="text-lg 2xl:pr-[10%] mt-10">Join thousands of traders using our daily market briefings
                             to navigate S&P futures, commodities, and crypto markets with confidence.</p>

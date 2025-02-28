@@ -2,7 +2,7 @@
     <div class="w-full bg-neutral-800 text-white">
         <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 py-5 sm:py-8">
             <div class="py-6"></div>
-            <h2 class="text-center w-full text-3xl lg:text-4xl 2xl:text-5xl font-semibold">Transform Market Data Into<br>Trading Results Through EQ Analysis</h2>
+            <h2 class="text-center w-full text-3xl lg:text-4xl 2xl:text-5xl font-semibold">Trusted daily by traders, hedge funds, and investment banks for 20+ years.</h2>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-6 py-16">
                 <div class="flex flex-col">

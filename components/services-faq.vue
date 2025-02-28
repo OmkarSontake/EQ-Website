@@ -35,9 +35,9 @@
             </div>
 
             <div class="w-fit mx-auto mt-10 2xl:mt-14">
-                <button
+                <NuxtLink to="/contact-us"
                     class="py-2.5 px-5 bg-orange-400 hover:bg-white border border-orange-400 transition-all duration-300 rounded-sm">Still
-                    Have Questions? Contact Us</button>
+                    Have Questions? Contact Us</NuxtLink>
             </div>
         </div>
     </div>

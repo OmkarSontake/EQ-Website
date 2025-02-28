@@ -1,6 +1,6 @@
 <template>
     <OtherPageHeader></OtherPageHeader>
-    <Slider></Slider>
+    <ServicesComponent></ServicesComponent>
     <ServicesFaq></ServicesFaq>
 </template>
 <script lang="ts" setup>

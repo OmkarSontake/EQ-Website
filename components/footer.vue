@@ -48,8 +48,8 @@
                     <div class="space-y-5">
                         <h4 class="text-lg xl:text-xl font-semibold">Account</h4>
                         <div class="flex flex-col gap-y-5">
-                            <NuxtLink class="text-lg opacity-75" to="/">Sign In</NuxtLink>
-                            <NuxtLink class="text-lg opacity-75" to="/">My Orders</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/login">Sign In</NuxtLink>
+                            <NuxtLink class="text-lg opacity-75" to="/register">Sign Up</NuxtLink>
                         </div>
                     </div>
 

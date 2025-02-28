@@ -4,10 +4,10 @@
             <div class="mt-4 lg:mt-16 2xl:mt-20">
                 <h2 class="text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">Daily Market Intelligence for
                     Traders Since 2003</h2>
-                <p class=" text-lg lg:text-lg 2xl:text-xl mt-5 lg:mt-10">Daily strategy publication developed by
-                    professional traders since 2003. Gain actionable insights for navigating equity index futures,
-                    commodities, cryptocurrencies, and interest rate markets - trusted by day-traders, hedge funds, and
-                    institutional desks worldwide.</p>
+                <p class=" text-lg lg:text-lg 2xl:text-xl mt-5 lg:mt-10">Developed in 2003 by professional market-makers 
+                    to more efficiently manage an index futures and options portfolio with notional value over $1 Billion. 
+                    EQ Analysis has constantly evolved since then and now combines next-gen volatility analysis with years of professional experience 
+                    in navigating the risks of the markets to give you an edge in your daily trading. </p>
 
                 <div
                     class="flex items-center p-2 pl-4 lg:p-1.5 lg:px-4 lg:pr-1.5 bg-white my-6 lg:my-14 lg:max-w-fit lg:w-fit w-full rounded-sm">
