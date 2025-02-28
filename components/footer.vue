@@ -64,7 +64,7 @@
             </div>
 
             <div class="text-center text-lg ">
-                © Copyright 2024 EQ Analysis. All Rights Reserved.
+                © Copyright 2025 EQ Analysis. All Rights Reserved.
             </div>
         </div>
     </div>

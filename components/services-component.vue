@@ -31,13 +31,13 @@
                     1024: { 'slidesPerView': 3 }
                 }">
                     <swiper-slide v-for="(product, index) in products" :key="index">
-                        <NuxtLink to="/tiers-example" class="hover:text-orange-400 transition-all duration-500 ">
+                        <NuxtLink :to="`/services/${product.id}`" class="hover:text-orange-400 transition-all duration-500 ">
                             <div class="w-full aspect-square overflow-clip rounded-md relative hover-card">
                                 <img :src="product.image"
                                     class="h-full w-full hover:scale-110 hover-image overflow-clip transition-all duration-700 object-cover cursor-pointer hover:grayscale"
                                     :alt="product.title">
                                 <div
-                                    class="flex flex-col absolute bottom-0 text-white h-full bg-black bg-opacity-40 w-full p-3 justify-end mt-3">
+                                    class="flex flex-col absolute bottom-0 text-white h-full bg-black bg-opacity-70 w-full p-3 justify-end mt-3">
                                     <div class="w-full text-lg font-semibold">{{ product.title }}</div>
                                     <div class="min-w-fit text-base">{{ product.subTitle }}</div>
                                 </div>

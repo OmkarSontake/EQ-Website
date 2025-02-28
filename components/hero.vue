@@ -21,7 +21,7 @@
             </div>
             <div class="grid place-content-center">
                 <img src="../assets/images/offered-resize-300x236.jpg"
-                    class="aspect-square max-h-80" alt="">
+                    class="w-full object-cover lg:min-h-[40vh]" alt="">
             </div>
         </div>
     </div>

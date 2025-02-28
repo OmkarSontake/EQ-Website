@@ -3,8 +3,9 @@
         :class="{ 'bg-black backdrop-blur-md bg-opacity-30 rounded-md': isScrolledDown }">
         <div class="mx-auto max-w-[85rem] grid grid-cols-2 lg:grid-cols-3 "
             :class="{ 'lg:!grid-cols-2 ': isScrolledDown }">
-            <NuxtLink to="/">
-                <img src="public\logo.png" class=" h-7" alt="Hello There">
+            <NuxtLink class="flex items-center gap-x-4" to="/">
+                <img src="@/assets\logo.png" class=" h-10" alt="Hello There">
+                <h2 class="font-bold text-xl lg:text-2xl">EQ Analysis</h2>
             </NuxtLink>
             <div ref="navLinks" :class="{ '!hidden': isScrolledDown }"
                 class="w-full hidden lg:flex items-center justify-center z-10 gap-x-10 text-lg font-medium">
