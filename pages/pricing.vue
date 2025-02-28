@@ -13,10 +13,10 @@
                 <div v-for="(tier, index) in subscriptionTiers" :key="index"
                     class="border-2 border-gray-100 rounded-xl p-8 hover:border-orange-400 transition-all duration-300">
                     <div class="flex flex-col h-full">
-                        <div class="aspect-square overflow-hidden rounded-lg mb-6">
+                  <!--       <div class="aspect-square overflow-hidden rounded-lg mb-6">
                             <img :src="tier.image" :alt="tier.title"
                                 class="w-full h-full object-cover hover:scale-105 transition-all duration-500">
-                        </div>
+                        </div> -->
                         <div class="flex-1">
                             <h3 class="text-2xl font-bold mb-4">{{ tier.title }}</h3>
                             <div class="mt-auto">
