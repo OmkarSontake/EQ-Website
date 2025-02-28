@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   css: ["~/assets/css/main.css", "~/assets/fonts/inter.css"],
-  modules: ['radix-vue/nuxt'],
+  modules: ['radix-vue/nuxt', "nuxt-swiper"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: `http://localhost:5000`
+      apiBase: `http://localhost:5005`
     }
   }
 });

@@ -15,7 +15,7 @@
                     Products</button>
             </div>
             <div class="w-full">
-                <img src="https://astro-agency08.vercel.app/assets/img/th-5/content-img-2.png"
+                <img src="../assets/images/Registration.JPG"
                     class="shadow-black shadow-xl w-full rounded-lg" alt="">
             </div>
         </div>
