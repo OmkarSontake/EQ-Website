@@ -10,7 +10,7 @@
                 <NuxtLink to="/contact-us">Contact</NuxtLink>
             </div>
 
-            <div v-if="!token" class="hidden lg:flex items-center justify-end text-lg font-medium gap-x-4">
+            <div class="hidden lg:flex items-center justify-end text-lg font-medium gap-x-4">
                 <NuxtLink to="/login">
                     <button>Login</button>
                 </NuxtLink>
@@ -19,12 +19,6 @@
                     <button
                         class="py-2.5 px-5 bg-orange-400 hover:bg-white border border-orange-400 transition-all duration-300 rounded-sm">Sign
                         Up</button>
-                </NuxtLink>
-            </div>
-            <div v-else class="hidden lg:flex items-center justify-end text-lg font-medium gap-x-4">
-                <NuxtLink to="/login">
-                    <button
-                        class="py-2.5 px-5 bg-red-600 hover:bg-white border text-white border-red-600 transition-all duration-300 rounded-sm">Log Out</button>
                 </NuxtLink>
             </div>
 
@@ -43,5 +37,5 @@
 </template>
 
 <script lang="ts" setup>
-const token = useState('token')
+
 </script>

@@ -19,7 +19,8 @@
                         <div class="space-y-2">
                             <label for="password" class="font-semibold">Password *</label>
                             <input type="password" id="password" name="password" required
-                                class="w-full p-3 border border-black rounded-full" placeholder="Enter your password">
+                                class="w-full p-3 border border-black rounded-full" 
+                                placeholder="Enter your password">
                         </div>
 
                         <button type="submit" class="p-3 bg-orange-400 px-5 rounded-full">Login</button>
@@ -30,7 +31,7 @@
                             Welcome Back to EQ Analysis
                         </h2>
                         <p class="text-lg 2xl:pr-[10%] mt-10">
-                            Access your daily market briefings and continue navigating S&P futures,
+                            Access your daily market briefings and continue navigating S&P futures, 
                             commodities, and crypto markets with confidence.
                         </p>
 
@@ -59,10 +60,6 @@
 <script setup lang="ts">
 const token = useState('token')
 const router = useRouter()
-
-onMounted(() => {
-    token.value = undefined
-})
 
 const handleSubmit = async (e: Event) => {
     const runtimeConfig = useRuntimeConfig()
