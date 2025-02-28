@@ -2,8 +2,8 @@
     <Hero></Hero>
     <IconCta></IconCta>
     <SideCard></SideCard>
+    <ServicesComponent></ServicesComponent>
     <CardList></CardList>
-    <Slider></Slider>
     <SideCardRight></SideCardRight>
 </template>
 <script lang="ts" setup></script>
