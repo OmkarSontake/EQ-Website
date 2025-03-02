@@ -15,7 +15,7 @@
                     Products</NuxtLink>
             </div>
             <div class="w-full">
-                <img src="../assets/images/Registration.JPG"
+                <img src="/Registration.jpg"
                     class="shadow-black shadow-xl w-full rounded-lg" alt="">
             </div>
         </div>
