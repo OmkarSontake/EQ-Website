@@ -59,9 +59,11 @@ const token = useState('token')
 const user = useState('user')
 const navLinks = ref()
 const isScrolledDown = ref()
+const router = useRouter()
 const handleLogout = () => {
     token.value = null
     user.value = null
+    router.push("/")
 }
 
 
