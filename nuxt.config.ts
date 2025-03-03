@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: `https://listening-honors-jazz-army.trycloudflare.com`
+      apiBase: `https://establish-guy-offense-mail.trycloudflare.com`
     }
   }
 });
