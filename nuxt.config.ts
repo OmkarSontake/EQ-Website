@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: `https://establish-guy-offense-mail.trycloudflare.com`
+      apiBase: `https://daisy-vi-delhi-demanding.trycloudflare.com`
     }
   }
 });
