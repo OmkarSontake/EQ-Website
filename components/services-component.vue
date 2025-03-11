@@ -2,7 +2,7 @@
     <client-only>
         <div class="w-full bg-white text-black">
             <div class="mx-auto max-w-[85rem] py-16 px-4 sm:px-6">
-                <div class="flex flex-col items-start justify-between lg:flex-row lg:items-end">
+                <div class="flex flex-col items-start justify-start lg:flex-row lg:items-end">
                     <div class="lg:max-w-[50%]">
                         <h2 class="text-3xl lg:text-3xl 2xl:text-4xl font-bold">
                             Transform Market Data Into Actionable Trading Intelligence
@@ -19,10 +19,10 @@
                             </button>
                         </div>
                     </div>
-                    <button
+                    <!--      <button
                         class="py-2.5 px-5 mt-5 lg:mt-0 bg-orange-400 hover:bg-white border border-orange-400 transition-all duration-300 rounded-sm">
                         View All Products
-                    </button>
+                    </button> -->
                 </div>
 
                 <swiper-container ref="containerRef" class="mt-16" space-between="20" navigation :breakpoints="{
@@ -31,22 +31,32 @@
                     1024: { 'slidesPerView': 3 }
                 }">
                     <swiper-slide v-for="(product, index) in products" :key="index">
-                        <NuxtLink :to="`/services/${product.id}`" class="hover:text-orange-400 transition-all duration-500 ">
-                            <div class="w-full aspect-square overflow-clip rounded-md relative hover-card">
-                                <img :src="product.image"
-                                    class="h-full w-full hover:scale-110 hover-image overflow-clip transition-all duration-700 object-cover cursor-pointer hover:grayscale"
-                                    :alt="product.title">
-                                <div
-                                    class="flex flex-col absolute bottom-0 text-white h-full bg-black bg-opacity-70 w-full p-3 justify-end mt-3">
-                                    <div class="w-full text-lg font-semibold">{{ product.title }}</div>
-                                    <div class="min-w-fit text-base">{{ product.subTitle }}</div>
+                        <NuxtLink :to="`/services/${product.id}`"
+                            class="transition-all duration-500 hover:text-orange-400">
+                            <!-- Card Container -->
+                            <div class="rounded-md shadow-md bg-white group">
+
+                                <!-- Image Section -->
+                                <div class="p-3">
+                                    <img :src="product.image" :alt="product.title"
+                                        class="w-full h-auto object-contain transition-transform duration-500" />
                                 </div>
-                                <div
-                                    class="absolute top-0 w-full text-white h-full hidden hover:backdrop-blur-sm p-3 hover-child">
-                                    {{ product.description }}
+
+                                <!-- Text Section -->
+                                <div class="p-3 bg-black bg-opacity-70 text-white">
+                                    <h3 class="text-xl font-semibold mb-2">{{ product.title }}</h3>
+                                    <p class="mb-2">{{ product.subTitle }}</p>
+                                    <p class="text-sm mb-4">{{ product.description }}</p>
+                                    <button class="bg-transparent border border-white px-4 py-2 rounded-full
+               hover:bg-white hover:text-black transition-colors duration-300">
+                                        Learn more
+                                    </button>
                                 </div>
+
                             </div>
                         </NuxtLink>
+
+
                     </swiper-slide>
                 </swiper-container>
 

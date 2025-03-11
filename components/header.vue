@@ -1,11 +1,11 @@
 <template class="text-black">
-    <div class="sticky top-0 w-full py-8 px-4 sm:px-6 lg:px-8"
+    <div class="sticky top-0 w-full py-8 px-4 sm:px-6 lg:px-8 z-40"
         :class="{ 'bg-black backdrop-blur-md bg-opacity-30 rounded-md': isScrolledDown }">
         <div class="mx-auto max-w-[85rem] grid grid-cols-2 lg:grid-cols-3 "
             :class="{ 'lg:!grid-cols-2 ': isScrolledDown }">
             <NuxtLink class="flex items-center gap-x-4" to="/">
-                <img src="@/assets\logo.png" class=" h-10" alt="Hello There">
-                <h2 class="font-bold text-xl lg:text-2xl">EQ Analysis</h2>
+                <img src="@/assets\logo.png" class=" h-14" alt="Hello There">
+                <h2 class="font-bold text-xl lg:text-3xl">EQ Analysis</h2>
             </NuxtLink>
             <div ref="navLinks" :class="{ '!hidden': isScrolledDown }"
                 class="w-full hidden lg:flex items-center justify-center z-10 gap-x-10 text-lg font-medium">
@@ -16,6 +16,9 @@
             </div>
 
             <div v-if="!token" class="hidden w-full lg:flex items-center justify-end text-lg font-medium gap-x-4">
+                <NuxtLink to="/cart">
+                    <img src="@/assets/icons/shopping-cart.svg" class="h-8 w-8" alt="">
+                </NuxtLink>
                 <NuxtLink to="/login">
                     <button>Login</button>
                 </NuxtLink>
@@ -28,6 +31,9 @@
             </div>
 
             <div v-else class="hidden lg:flex w-full items-center justify-end text-lg font-medium gap-x-4">
+                <NuxtLink to="/cart">
+                    <img src="@/assets/icons/shopping-cart.svg" class="h-8 w-8" alt="">
+                </NuxtLink>
                 <NuxtLink to="/dashboard">
                     <button>Dashboard</button>
                 </NuxtLink>
@@ -47,6 +53,9 @@
                             Up</button>
                     </NuxtLink>
                 </div>
+                <NuxtLink to="/cart">
+                    <img src="@/assets/icons/shopping-cart.svg" class="h-8 w-8 lg:hidden" alt="">
+                </NuxtLink>
                 <img src="@\assets\icons\menu.svg" class="h-6 w-6 lg:hidden" alt="menu">
             </div>
         </div>

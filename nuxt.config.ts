@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: `https://daisy-vi-delhi-demanding.trycloudflare.com`
+      apiBase: `http://localhost:5005`
     }
   }
 });
