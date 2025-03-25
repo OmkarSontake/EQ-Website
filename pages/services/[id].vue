@@ -12,7 +12,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div v-for="(tier, index) in subscriptionTiers" :key="index"
-                    class="border-2 border-gray-100 rounded-xl p-8 hover:border-orange-400 transition-all duration-300">
+                    class=" border-black border-2 rounded-xl p-8 hover:border-neutral-400 transition-all duration-300">
                     <div class="flex flex-col h-full">
                         <!-- Image -->
                         <div class="aspect-square overflow-hidden rounded-lg mb-6">
@@ -26,7 +26,7 @@
                             <p class="text-gray-600 mb-6">{{ tier.description ? tier.description : '' }}</p>
                             <div class="mt-auto">
                                 <button @click="handleSubscription(tier)"
-                                    class="w-full py-3 px-6 bg-orange-400 hover:bg-orange-500 text-white rounded-lg font-semibold transition-all">
+                                    class="w-full py-3 px-6 bg-[#dfd6ba] hover:opacity-70 text-white rounded-lg font-semibold transition-all duration-500">
                                         Select Plan
                                 </button>
                             </div>

@@ -47,7 +47,7 @@
 
 
                                 <button @click="handleSubscription(tier)"
-                                    class="w-full py-3 px-6 bg-orange-400 hover:bg-orange-500 text-white rounded-lg font-semibold transition-all">
+                                    class="w-full py-3 px-6 bg-[#dfd6ba] hover:opacity-70 text-white rounded-lg font-semibold transition-all">
                                     {{ tier.buttonText }}
                                 </button>
                             </div>
