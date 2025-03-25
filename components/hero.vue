@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="grid place-content-center">
-                <img src="../assets/images/offered-resize-300x236.jpg"
+                <img src="../assets/images/Page_details.jpg"
                     class="w-full object-cover lg:min-h-[40vh]" alt="">
             </div>
         </div>

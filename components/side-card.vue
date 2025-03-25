@@ -3,7 +3,7 @@
         <div
             class="mx-auto max-w-[85rem] px-4 sm:px-6 grid lg:grid-cols-2 gap-x-6 space-y-16 lg:px-8 py-5 pt-12 sm:py-10 lg:py-14">
             <div class="w-full hidden lg:block">
-                <img src="../assets/images/trading-floor-of-the-chicago-mercantile-exchange-chicago-illinois-am5br5.jpg"
+                <img src="../assets/images/home.jpg"
                     class="shadow-black shadow-xl w-full rounded-lg" alt="">
             </div>
             <div class=" grid place-content-center gap-y-6">
