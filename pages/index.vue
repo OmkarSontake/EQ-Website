@@ -1,5 +1,6 @@
 <template>
     <Hero></Hero>
+    <Glance></Glance>
     <IconCta></IconCta>
     <SideCard></SideCard>
     <ServicesComponent></ServicesComponent>
