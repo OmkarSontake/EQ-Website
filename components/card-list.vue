@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col">
-                    <div class="text-xl font-semibold text-left w-full">
+                    <div class="text-xl font-semibold text-left w-full"> 
                         02
                     </div>
                     <div class="w-full bg-neutral-700 h-0.5 my-8 lg:my-9"></div>
