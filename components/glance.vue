@@ -3,7 +3,7 @@
         <h2 class=" text-3xl lg:text-3xl 2xl:text-4xl font-bold w-fit">Daily Market Intelligence for
             Institutional-Grade Trading Decisions</h2>
 
-            <img src="\Registration_Pg_Picture.jpg" class="w-full  min-h-fit max-w-7xl" alt="">
+            <img src="\registration-pg-picture.jpg" class="w-full  min-h-fit max-w-7xl" alt="">
             
             <div class="flex items-center gap-x-6">
                 <NuxtLink to="/services"

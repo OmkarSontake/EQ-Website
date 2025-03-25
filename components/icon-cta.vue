@@ -38,7 +38,7 @@
 
 <style scoped>
 .background{
-    background-image: url(\Registration_Pg_Picture.jpg);
+    background-image: url(\registration-pg-picture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
