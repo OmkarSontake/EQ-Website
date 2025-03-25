@@ -32,8 +32,9 @@
                 </div>
             </div>
         </div>
-        <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 py-5 sm:py-8 absolute top-0">
-            <div class="py-6"></div>
+        <div class="w-full px-4 sm:px-6 lg:px-8 py-5 sm:py-8 absolute top-0">
+            <div class="mx-auto max-w-[85rem]"> 
+                <div class="py-6"></div>
             <h2 class="text-center w-full text-3xl lg:text-4xl 2xl:text-5xl font-semibold">IMPROVE YOUR MARKET INTELLIGENCE <br class="hidden lg:block"> WITH 
                 EQ ANALYSIS</h2>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-6 py-16">
@@ -62,6 +63,9 @@
                         allowing for more effective execution of their particular style of trading.</p>
                 </div>
             </div>
+
+            </div>
+            
         </div>
     </div>
 </template>
