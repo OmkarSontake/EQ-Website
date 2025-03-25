@@ -32,9 +32,9 @@
                 }">
                     <swiper-slide v-for="(product, index) in products" :key="index">
                         <NuxtLink :to="`/services/${product.id}`"
-                            class="transition-all duration-500 hover:text-orange-400">
+                            class="transition-all duration-500 hover:text-orange-400 ">
                             <!-- Card Container -->
-                            <div class="rounded-md shadow-md bg-white group">
+                            <div class="rounded-md shadow-md bg-white group border-2 border-black">
 
                                 <!-- Image Section -->
                                 <div class="p-3">
@@ -42,8 +42,8 @@
                                         class="w-full h-auto object-contain transition-transform duration-500" />
                                 </div>
 
-                                <!-- Text Section -->
-                                <div class="p-3 bg-black bg-opacity-70 text-white">
+
+                                <div class="p-3 bg-[#dfd6ba] border-2 bg-opacity-70 text-black">
                                     <h3 class="text-xl font-semibold mb-2">{{ product.title }}</h3>
                                     <p class="mb-2">{{ product.subTitle }}</p>
                                     <p class="text-sm mb-4">{{ product.description }}</p>

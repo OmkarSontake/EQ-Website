@@ -15,8 +15,7 @@
                         class="text-lg lg:text-lg 2xl:text-xl outline-none w-full lg:min-w-64 font-medium"
                         placeholder="Enter your email">
                     <button
-                        class="bg-orange-400 lg:text-lg 2xl:text-xl rounded-sm min-w-fit font-semibold lg:p-2.5 p-2.5 px-4 lg:px-5 text-black">Get
-                        Started</button>
+                        class="bg-[#dfd6ba] lg:text-lg 2xl:text-xl rounded-sm min-w-fit font-semibold lg:p-2.5 p-2.5 px-4 lg:px-5 text-black">Get Todays Edition Free</button>
                 </div>
             </div>
             <div class="grid place-content-center">

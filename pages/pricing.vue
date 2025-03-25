@@ -11,7 +11,7 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div v-for="(tier, index) in subscriptionTiers" :key="index"
-                    class="border-2 border-gray-100 rounded-xl p-8 hover:border-orange-400 transition-all duration-300">
+                    class="border-2 border-black rounded-xl p-8 hover:border-[#dfd6ba] transition-all duration-300">
                     <div class="flex flex-col h-full">
                   <!--       <div class="aspect-square overflow-hidden rounded-lg mb-6">
                             <img :src="tier.image" :alt="tier.title"
@@ -25,7 +25,7 @@
                                     <span class="text-lg text-gray-500">/{{ tier.period }}</span>
                                 </div>
                                 <button @click="handleSubscription(tier)"
-                                    class="w-full py-3 px-6 bg-orange-400 hover:bg-orange-500 text-white rounded-lg font-semibold transition-all">
+                                    class="w-full py-3 px-6 bg-[#dfd6ba] hover:opacity-70 text-white rounded-lg font-semibold transition-all">
                                     {{ tier.buttonText }}
                                 </button>
                             </div>

@@ -41,7 +41,7 @@
               <!-- Login Button -->
               <button
                 type="submit"
-                class="p-3 bg-orange-400 px-5 rounded-full"
+                class="p-3 bg-[#dfd6ba] px-5 rounded-full"
               >
                 Login
               </button>
@@ -50,7 +50,7 @@
               <p class="mt-4">
                 Don't have an account?
                 <!-- If using Vue Router, you can replace with: <router-link to=\"/register\">Sign up here</router-link> -->
-                <a href="/register" class="text-orange-400 underline hover:text-orange-500 transition-colors">
+                <a href="/register" class="text-[orange-400] underline hover:text-orange-500 transition-colors">
                   Sign up here
                 </a>
               </p>

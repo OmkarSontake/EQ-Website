@@ -11,7 +11,7 @@
                 <p class="text-lg">Professional-grade market intelligence articulates price action context for S&P 500
                     futures, commodities, and crypto markets - trusted by day-traders and hedge funds alike.</p>
                 <NuxtLink to="/services"
-                    class="py-2.5 px-5 bg-orange-400 hover:bg-white border max-w-fit font-semibold border-orange-400 transition-all duration-300 rounded-sm">Explore
+                    class="py-2.5 px-5 bg-[#dfd6ba] hover:bg-white border max-w-fit font-semibold border-[#dfd6ba] transition-all duration-300 rounded-sm">Explore
                     Products</NuxtLink>
             </div>
             <div class="w-full">

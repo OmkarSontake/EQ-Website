@@ -54,7 +54,7 @@
                                 placeholder="Write us your question here" />
                         </div>
 
-                        <button type="submit" class="p-3 bg-orange-400 px-5 rounded-full">Send Message</button>
+                        <button type="submit" class="p-3 bg-[#dfd6ba] px-5 rounded-full">Send Message</button>
                     </form>
                 </div>
             </div>
