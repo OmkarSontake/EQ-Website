@@ -38,7 +38,7 @@
 
 <style>
 .background-image-cta-icon{
-    background-image: url(\registration-pg-picture.jpg);
+    background-image: url(registration-pg-picture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
