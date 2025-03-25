@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white text-white background">
+    <div class="w-full bg-white text-white background-image-cta-icon">
         <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8 py-5 sm:py-8">
             <div class="py-6"></div>
             <h2 class="text-center w-full text-3xl lg:text-4xl 2xl:text-5xl font-semibold">IMPROVE YOUR MARKET INTELLIGENCE <br class="hidden lg:block"> WITH 
@@ -36,8 +36,8 @@
 </template>
 
 
-<style scoped>
-.background{
+<style>
+.background-image-cta-icon{
     background-image: url(\registration-pg-picture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
