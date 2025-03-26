@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: `https://communist-associates-cgi-misc.trycloudflare.com`
+      apiBase: `https://implied-tri-utilization-supplemental.trycloudflare.com`
     }
   }
 });
